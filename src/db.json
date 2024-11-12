@@ -1,0 +1,53 @@
+{
+  "fish": [
+    {
+      "name": "Octopus",
+      "image": "https://backiee.com/static/wallpapers/560x315/389642.jpg",
+      "location": "Pacific Ocean",
+      "fact": " Octopuses have blue blood because their blood contains a copper-based protein called hemocyanin, instead of the iron-based hemoglobin found in human blood.",
+      "id": "1"
+    },
+    {
+      "name": "Cuttlefish",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRghQ9Lo6JSpXQOAW6WFX4FwxSxufPcwnYqrQ&s",
+      "location": "Mediterranean Sea",
+      "fact": "Cuttlefish can change their color and pattern more dramatically than other cephalopods. They can use color to camouflage, communicate, and attract mates.",
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "name": "Anglerfish",
+      "image": "https://t3.ftcdn.net/jpg/07/99/28/32/360_F_799283248_YMPwbdMfq8kDedZcervq6rKItYeDjWUj.jpg",
+      "location": "Atlantic Ocean",
+      "fact": " It finds food by angling prey in with a light that comes off the front of its head, which acts like a fishing lure. The fishing lure on the anglerfish is called the illicium. The anglerfish lives in the deepest part of the ocean where there is no light."
+    },
+    {
+      "id": "4",
+      "name": "Electric Eel",
+      "image": "https://media.istockphoto.com/id/1345313951/photo/an-electric-eel-emerges-from-the-algae-visible-his-head-fins-eye-its-dark-in-the-background.jpg?s=612x612&w=0&k=20&c=6TekIsLWgJeUbRjruspkW09_PbYMMq-9nHoH-lt6D54=",
+      "location": "Amazon River",
+      "fact": "Electric eels are technically knifefish, not eels. They belong to the Gymnotiformes order, which is closely related to the Siluriformes order, which includes catfish and carp"
+    },
+    {
+      "id": "5",
+      "name": "Sea Horse",
+      "image": "https://t4.ftcdn.net/jpg/05/80/70/95/360_F_580709596_4xaebMRjcGGHvxbDNT18iAwUBMo2RPKx.jpg",
+      "location": "Tropical Waters",
+      "fact": "Male seahorses carry the eggs after mating. The female transfers her eggs to the male's brood pouch, where he fertilizes them and carries them until they hatch. "
+    },
+    {
+      "id": "6",
+      "name": "Turtle",
+      "image": "https://images2.alphacoders.com/836/83660.jpg",
+      "location": "Indian Ocean",
+      "fact": "Turtles have been around for 200–300 million years, which is 140 million years before dinosaurs. "
+    },
+    {
+      "id": "7",
+      "name": "Tilapa",
+      "image": "https://media.istockphoto.com/id/630068832/photo/red-tilapia-fish-swimming-in-a-pond.jpg?s=612x612&w=0&k=20&c=v40ugRbdQAB06kavhWmHXa4rMsz6bmENRsjNjw91398=",
+      "location": "Nile River ",
+      "fact": "Tilapia is the second-most farm-raised fish in the world after carp."
+    }
+  ]
+}
