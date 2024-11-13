@@ -1,4 +1,19 @@
-function Fish({name,image,location,fact}){
+function Fish({name,image,location,fact,id,fish,setFish}){
+  function handleDelete(){
+    fetch(`http://localhost:3000/fish/${id}`, {
+      method:"DELETE",
+      headers:{
+        "Content-Type":"application/json"
+      }
+    })
+    .then(res => res.json())
+    .then(() => {
+      let remainder = fish.filter(fins => fins.id !== id)
+      setFish(remainder)
+      alert(`${name} has been deleted!`)
+    })
+    .catch(err => console.log(err))
+  }
     return(
         <div id="content">
             <h2>{name}</h2>
@@ -8,6 +23,8 @@ function Fish({name,image,location,fact}){
                 <h4>Did you know...😑</h4>
                 <p><strong>{fact}</strong></p>
               </div>
+              <p>{id}</p>
+              <button onClick={handleDelete}>Delete</button>
         </div>
     )
 }

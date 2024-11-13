@@ -1,5 +1,5 @@
 import Fish from "./Fish"
-function FishList({fish}){
+function FishList({fish,setFish}){
     return(
        <div id="container">
           {fish.length >0? fish.map(fishy => (
@@ -7,8 +7,10 @@ function FishList({fish}){
             name={fishy.name}
             image={fishy.image}
             location={fishy.location}
-            fact={fishy.fact} 
+            fact={fishy.fact}
             key={fishy.id}
+            fish={fish}
+            setFish={setFish}
             />
           )):null}
        </div>
