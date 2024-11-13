@@ -9,6 +9,7 @@ function FishList({fish,setFish}){
             location={fishy.location}
             fact={fishy.fact}
             key={fishy.id}
+            id={fishy.id}
             fish={fish}
             setFish={setFish}
             />

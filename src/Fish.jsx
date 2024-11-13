@@ -24,7 +24,15 @@ function Fish({name,image,location,fact,id,fish,setFish}){
                 <p><strong>{fact}</strong></p>
               </div>
               <p>{id}</p>
-              <button onClick={handleDelete}>Delete</button>
+              <form id="new" onSubmit={handleUpdate}>
+                <input className="input" type="text" name="name" placeholder="Name" value={newFish.name} required onChange={handleChange}/>
+                <input className="input" type="url" name="image" placeholder="Image" value={newFish.image} required onChange={handleChange}/>
+                <input className="input" type="text" name="location" placeholder="Location" value={newFish.location} required onChange={handleChange}/>
+                <input className="input" type="text" name="fact" placeholder="Fun fact..." value={newFish.fact} required onChange={handleChange}/>
+                <input className="input" type="number" name="id" placeholder="Id" value={newFish.id} required onChange={handleChange}/>
+                <button id="add" type="submit">ADD!</button>
+            </form>
+              <button id="delete" onClick={handleDelete}>Delete</button>
         </div>
     )
 }

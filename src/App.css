@@ -124,3 +124,10 @@ h4{
   border-radius: 7px;
   background-color: rgba(255, 255, 255, 0.4);
 }
+#delete{
+  border: 2px red solid;
+  color: red;
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
