@@ -41,7 +41,7 @@ function NewFish({fish,setFish}){
     }
     return(
         <div id="newness">
-          <h2>Ajouter un nouveau poisson</h2>
+          <h2>Add New Fishies</h2>
             <form id="new" onSubmit={handleSubmit}>
                 <input className="input" type="text" name="name" placeholder="Name" value={newFish.name} required onChange={handleChange}/>
                 <input className="input" type="url" name="image" placeholder="Image" value={newFish.image} required onChange={handleChange}/>

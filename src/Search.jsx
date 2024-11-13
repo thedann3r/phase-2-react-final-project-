@@ -5,7 +5,8 @@ function Search({onSearch}){
     }
     return(
         <div>
-             <label htmlFor="search" >Search Fish</label>
+            <h3>What are you looking for ?</h3>
+             <label htmlFor="search" >Search: </label>
                 <input id="search" 
                 type="text" 
                 placeholder="Search..." 
