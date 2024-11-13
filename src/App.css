@@ -45,6 +45,18 @@
 .read-the-docs {
   color: #888;
 }
+#home{
+  width: 200vh;
+  height: 200vh;
+}
+#about{
+  width: 200vh;
+  height: 200vh;
+}
+#contacts{
+  width: 200vh;
+  height: 200vh;
+}
 #image{
   width: 350px;
   height: 250px;
@@ -131,3 +143,8 @@ h4{
   border-radius: 10px;
   margin-bottom: 5px;
 }
+#navigation{
+  display: flex;
+  justify-content: space-between;
+}
+
