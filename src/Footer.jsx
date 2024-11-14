@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <div>
-            <h2>Created by <strong>Onyango Austin</strong>👊🏿💪🏿. Remember Marine Life matter.</h2>
+            <p>Created by <strong>Onyango Austin</strong>👊🏿💪🏿. Remember Marine Life matter.</p>
         </div>
     )
 }

@@ -53,7 +53,7 @@ function Fish({name,image,location,fact,id,fish,setFish}){
     .then(() => {
       let remainder = fish.filter(fins => fins.id !== id)
       setFish(remainder)
-      alert(`${name} has been deleted!`)
+      alert(`Poof! ${name} is gone!👋🏽`)
     })
     .catch(err => console.log(err))
   }

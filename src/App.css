@@ -117,11 +117,14 @@ h4{
   background-color: rgba(255, 255, 255, 0.6);
 }
 #add{
-  width: 75px;
+  width: 80px;
   text-align: center;
   padding: 5px;
   height: 50px;
   margin: 10px;
+  border: 2px white solid;
+  color: white;
+  background-color: black;
 }
 #mainH{
   font-weight: 600;
@@ -148,7 +151,11 @@ h4{
 }
 #navigation{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  border: 3px black solid;
+  padding: 8px;
+  border-radius: 11px;
+  background-color: rgba(255, 255, 255, 0.7);
 }
 #opener{
   font-size: larger;
@@ -173,4 +180,26 @@ h4{
   margin-bottom: 5px;
   width: 200px;
 }
-
+#conts{
+  border: 4px black solid;
+  border-radius: 15px;
+  margin: 20px;
+  width: 700px;
+  margin-left: 20%;
+  padding: 10px;
+  color: black;
+  background-color: rgba(0, 255, 221, 0.4);
+}
+#abt{
+  border: 7px black solid;
+  border-radius: 15px;
+  margin: 20px;
+  width: 700px;
+  margin-left: 20%;
+  padding: 10px;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#abut{
+  color: aqua;
+}

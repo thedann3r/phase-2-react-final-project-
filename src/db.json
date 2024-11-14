@@ -27,20 +27,6 @@
       "image": "https://media.istockphoto.com/id/1345313951/photo/an-electric-eel-emerges-from-the-algae-visible-his-head-fins-eye-its-dark-in-the-background.jpg?s=612x612&w=0&k=20&c=6TekIsLWgJeUbRjruspkW09_PbYMMq-9nHoH-lt6D54=",
       "location": "Amazon River",
       "fact": "Electric eels are technically knifefish, not eels. They belong to the Gymnotiformes order, which is closely related to the Siluriformes order, which includes catfish and carp"
-    },
-    {
-      "id": "5",
-      "name": "Sea Horse",
-      "image": "https://t4.ftcdn.net/jpg/05/80/70/95/360_F_580709596_4xaebMRjcGGHvxbDNT18iAwUBMo2RPKx.jpg",
-      "location": "Tropical Waters",
-      "fact": "Male seahorses carry the eggs after mating. The female transfers her eggs to the male's brood pouch, where he fertilizes them and carries them until they hatch. "
-    },
-    {
-      "id": "6",
-      "name": "Tilapia",
-      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR_FrS2hYbP-VeStteLDNA7YfEl0fuF3tdrDNSDo6V5g6_bUFHAdzfnN5qMDEk3AxREdTmQ",
-      "location": "Nile River ",
-      "fact": "Tilapia is the second-most farm-raised fish in the world after carp."
     }
   ]
 }
