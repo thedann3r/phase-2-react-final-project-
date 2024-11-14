@@ -10,7 +10,7 @@ function App(){
   const [fish,setFish] = useState([])
   const [searchFish,setSearchFish] = useState("")
   useEffect(() => {
-    fetch("http://localhost:3000/fish")
+    fetch("https://json-server-backend-36ql.onrender.com/fish")
     .then(res => res.json())
     .then(data => {
       setFish(data)

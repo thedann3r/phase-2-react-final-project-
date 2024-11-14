@@ -20,10 +20,10 @@ function NewFish({fish,setFish}){
     }
     function handleSubmit(e){
        e.preventDefault()
-       fetch("http://localhost:3000/fish", {
+       fetch("https://json-server-backend-36ql.onrender.com/fish", {
         method:"POST",
         headers:{
-            "Content-type":"appliction/json"
+            "Content-Type":"appliction/json"
         },
         body:JSON.stringify(newFish)
        })
@@ -36,6 +36,7 @@ function NewFish({fish,setFish}){
             fact:"",
             id:0
         })
+        alert(`Poof ${name} created with success`)
        })
        .catch(error => console.log(error))
     }

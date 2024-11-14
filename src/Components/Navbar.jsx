@@ -4,10 +4,10 @@ function Navbar(){
     return(
         <>
           <nav id="navigation">
-             <Link to="./home">Home</Link>  
-             <Link to="./app">App</Link>  
-             <Link to="./about">About</Link>  
-             <Link to="./contacts">Contacts</Link>  
+             <Link className="link" to="./home">Home</Link>  
+             <Link className="link" to="./app">App</Link>  
+             <Link className="link" to="./about">About</Link>  
+             <Link className="link" to="./contacts">Contacts</Link>  
           </nav>      
         </>
     )

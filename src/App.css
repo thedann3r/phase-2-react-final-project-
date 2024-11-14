@@ -154,13 +154,14 @@ h4{
   justify-content: space-around;
   border: 3px black solid;
   padding: 8px;
-  border-radius: 11px;
-  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 11px; 
+  color: white;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 #opener{
   font-size: larger;
   font-weight: 500;
-  color: aqua;
+  color: white;
 }
 #homeS{
   border: 7px black solid;
@@ -169,16 +170,17 @@ h4{
   width: 700px;
   margin-left: 20%;
   padding: 10px;
-  color: black;
+  color: white;
   background-color: rgba(0, 0, 0, 0.4);
 }
 #homeB{
-  border: 2px black solid;
+  border: 5px black solid;
   color: black;
-  background-color: aqua;
+  background-color: white;
   border-radius: 10px;
   margin-bottom: 5px;
   width: 200px;
+  font-size: larger;
 }
 #conts{
   border: 4px black solid;
@@ -202,4 +204,9 @@ h4{
 }
 #abut{
   color: aqua;
+}
+.link{
+  color: white;
+  text-decoration: underline;
+  font-family: 'Niconne', cursive;
 }

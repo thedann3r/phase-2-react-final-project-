@@ -19,7 +19,7 @@ function Fish({name,image,location,fact,id,fish,setFish}){
   }
   function handleUpdate(e){
     e.preventDefault()
-    fetch(`http://localhost:3000/fish/${id}`, {
+    fetch(`https://json-server-backend-36ql.onrender.com/fish/${id}`, {
        method:"PATCH",
        headers:{
         "Content-Type":"application/json"
@@ -38,12 +38,13 @@ function Fish({name,image,location,fact,id,fish,setFish}){
         return fis
       })
       setFish(updateFish)
+      alert(`poof ${name} updated successfully!!`)
     })
     .catch(err => console.log(err))
   }
 
   function handleDelete(){
-    fetch(`http://localhost:3000/fish/${id}`, {
+    fetch(`https://json-server-backend-36ql.onrender.com/fish/${id}`, {
       method:"DELETE",
       headers:{
         "Content-Type":"application/json"
