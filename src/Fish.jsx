@@ -72,7 +72,7 @@ function Fish({name,image,location,fact,id,fish,setFish}){
                 <input className="input" type="url" name="image" placeholder="Image" value={update.image} required onChange={handleChange}/><br />
                 <input className="input" type="text" name="location" placeholder="Location" value={update.location} required onChange={handleChange}/><br />
                 <input className="input" type="text" name="fact" placeholder="Fun fact..." value={update.fact} required onChange={handleChange}/><br />
-                <button id="add" type="submit">ADD!</button>
+                <button id="add" type="submit">UPDATE!</button>
             </form>
               <button id="delete" onClick={handleDelete}>Delete</button>
         </div>
