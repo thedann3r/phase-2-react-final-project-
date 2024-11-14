@@ -13,7 +13,7 @@ const navigate = useNavigate()
                     phase. In this app you will be able to see different fish species and in addition you will be given the luxury of adding other fish you see
                     fit in the app, thank you and enjoy!</strong></p>
             </section>
-          <button onClick={() => navigate("/app")}>Next</button>  
+          <button  id="homeB" onClick={() => navigate("/app")}>Next</button>  
          </div>
     )
 }

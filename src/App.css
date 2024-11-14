@@ -162,4 +162,11 @@ h4{
   margin-left: 20%;
   padding: 10px;
 }
+#homeB{
+  border: 2px black solid;
+  color: white;
+  background-color: aqua;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
 
